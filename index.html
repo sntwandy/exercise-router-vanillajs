@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="/js/routes.js"></script>
     <title>Router | SPA</title>
 </head>
 <body>
@@ -12,13 +11,13 @@
         <nav class="menu mp">
             <ul class="menu-ul mp">
                 <li>
-                    <a href="#">Home</a>
+                    <a onclick="router.loadRoute('')" href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a onclick="router.loadRoute('about')" href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a onclick="router.loadRoute('contact')" href="#">Contact</a>
                 </li>
             </ul>
         </nav>
