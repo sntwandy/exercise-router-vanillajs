@@ -1,0 +1,25 @@
+{
+  "name": "taller-creacion-router-spa",
+  "version": "1.0.0",
+  "description": "Learning about router with Vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sntwandy/exercise-router-vanillajs.git"
+  },
+  "keywords": [
+    "Router"
+  ],
+  "author": "@sntwandy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sntwandy/exercise-router-vanillajs/issues"
+  },
+  "homepage": "https://github.com/sntwandy/exercise-router-vanillajs#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
